@@ -8,7 +8,8 @@
 <meta property="og:title" content="Sherzod O'rolov — Data Scientist & AI Engineer">
 <meta property="og:description" content="Agricultural AI platforms, quant research, and data education products built end to end.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="assets/portrait.jpg">
+<meta property="og:image" content="assets/portrait-hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -93,9 +94,50 @@
     </div>
 
     <div class="hero__media reveal" data-d="2">
-      <div class="portrait">
-        <img src="assets/portrait.jpg" alt="Sherzod O'rolov" width="760" height="988" loading="eager" decoding="async">
-        <div class="portrait__glow" aria-hidden="true"></div>
+      <!-- Creative animated code terminal visual -->
+      <div class="creative-hero">
+        <div class="term">
+          <div class="term__bar">
+            <span class="term__dot term__dot--r"></span>
+            <span class="term__dot term__dot--y"></span>
+            <span class="term__dot term__dot--g"></span>
+            <span class="term__title">sherzod@portfolio: ~</span>
+          </div>
+          <div class="term__body">
+            <div class="term__line"><span class="t-prompt">$</span> <span class="t-cmd">python pipeline.py</span></div>
+            <div class="term__line t-out"><span class="t-info">→ Loading 240,672 candles...</span></div>
+            <div class="term__line t-out"><span class="t-ok">✓ H96 C2 · win rate 58.92%</span></div>
+            <div class="term__line t-out"><span class="t-ok">✓ Profit Factor 1.16 · +21.06%</span></div>
+            <div class="term__line"><span class="t-prompt">$</span> <span class="t-cmd">git push origin main</span></div>
+            <div class="term__line t-out"><span class="t-info">→ Deploying to GitHub Pages...</span></div>
+            <div class="term__line t-out"><span class="t-ok">✓ Live at sherzoddd2002.github.io</span></div>
+            <div class="term__line"><span class="t-prompt">$</span> <span class="t-cursor">█</span></div>
+          </div>
+        </div>
+        <!-- Floating orbit rings -->
+        <div class="orbit">
+          <div class="orbit__ring orbit__ring--1"></div>
+          <div class="orbit__ring orbit__ring--2"></div>
+          <div class="orbit__ring orbit__ring--3"></div>
+          <div class="orbit__core">
+            <svg viewBox="0 0 80 80" width="56" height="56">
+              <defs>
+                <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#4ade80"/>
+                  <stop offset="50%" stop-color="#22d3ee"/>
+                  <stop offset="100%" stop-color="#a78bfa"/>
+                </linearGradient>
+              </defs>
+              <path d="M40 8 L70 25 L70 55 L40 72 L10 55 L10 25 Z" fill="none" stroke="url(#g1)" stroke-width="2.5"/>
+              <path d="M40 18 L60 28 L60 52 L40 62 L20 52 L20 28 Z" fill="none" stroke="url(#g1)" stroke-width="1.5" opacity="0.6"/>
+              <circle cx="40" cy="40" r="5" fill="url(#g1)"/>
+            </svg>
+          </div>
+          <div class="orbit__node orbit__node--1">🐍</div>
+          <div class="orbit__node orbit__node--2">📊</div>
+          <div class="orbit__node orbit__node--3">🤖</div>
+          <div class="orbit__node orbit__node--4">🌐</div>
+        </div>
       </div>
       <div class="badgecard badgecard--a">
         <span class="badgecard__icon">🎓</span>
@@ -605,9 +647,22 @@
       </div>
 
       <div class="contact__card">
-        <img src="assets/portrait-square.jpg" alt="Sherzod O'rolov" width="640" height="640" loading="lazy" decoding="async">
+        <div class="contact__visual">
+          <div class="matrix">
+            <span>01101001</span><span>10110100</span><span>00101110</span>
+            <span>11010010</span><span>01001101</span><span>10011011</span>
+            <span>00110101</span><span>11101001</span><span>01110010</span>
+            <span>10001110</span><span>01100110</span><span>11011000</span>
+          </div>
+          <div class="av">
+            <div class="av__ring"></div>
+            <div class="av__inner">
+              <span class="av__mono">SO</span>
+            </div>
+          </div>
+        </div>
         <div class="contact__quote">
-          <p>“Data transforms decisions into impact.”</p>
+          <p>"Data transforms decisions into impact."</p>
           <span>— WorldQuant University Applied Data Science Lab</span>
         </div>
       </div>
